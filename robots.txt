@@ -1,2 +1,2 @@
-Sitemap: https://fethiabelkilani.com/sitemap.xml
-Sitemap: https://fethiabelkilani.com/blog/sitemap.xml
+Sitemap: https://fethia.com/sitemap.xml
+Sitemap: https://fethia.com/blog/sitemap.xml
