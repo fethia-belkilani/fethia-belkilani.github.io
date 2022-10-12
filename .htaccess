@@ -4,9 +4,9 @@ RewriteBase /
 #if not already blog.website.com
 #RewriteCond %{HTTP_HOST} !^blog\.fethiabelkilani\.com$ [NC] 
 #if request is for blog/, go to blog.website.com
-#RewriteRule  ^blog/$ http://blog.fethia.com [L,NC,R=301] 
+#RewriteRule  ^blog/$ http://blog.fethiabelkilani.com [L,NC,R=301] 
 #RewriteCond %{HTTP_HOST} ^blog\.fethiabelkilani\.com$   [NC]
-#RewriteRule ^ https://fethia.com/blog  [L,R]
+#RewriteRule ^ https://fethiabelkilani.com/blog  [L,R]
 
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
